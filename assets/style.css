@@ -287,4 +287,6 @@ body {
 @media (max-width: 560px) {
   .form-row { flex-direction: column; }
   .col-size { display: none; }
+  /* ボタンが画面幅に収まらず折り返されずにはみ出るのを防ぐ */
+  .toolbar-actions { width: 100%; }
 }
